@@ -4,7 +4,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Edge()
-driver.get("")
+driver.get("https://support.smartbear.com/testcomplete/docs/reference/test-objects/controls/web/general/list-of-web-objects.html")
+
 
 web_object_elements = ['object', 'embed', 'img', 'a', 'textarea', 'audio', 'video', 'iframe', 'table', 'input']
 # print("Count of web_object_elements", len(web_object_elements))
